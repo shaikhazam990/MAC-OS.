@@ -74,16 +74,34 @@ Always improving and learning new things 🚀`
     usage: 'contact',
     fn: () =>
       `Email: azamshaikh.dev@gmail.com
-GitHub: github.com/yourusername
-LinkedIn: linkedin.com/in/yourusername`
+GitHub: https://github.com/shaikhazam990
+LinkedIn: https://www.linkedin.com/in/mohd-azam-4956a828a/`
   },
 
   github: {
     description: 'Open my GitHub profile',
     usage: 'github',
     fn: () => {
-      window.open('https://github.com/yourusername', '_blank')
+      window.open('https://github.com/shaikhazam990', '_blank')
       return 'Opening GitHub profile...'
+    }
+  },
+
+    linkedin: {
+    description: 'Open my linkedin profile',
+    usage: 'linkedin',
+    fn: () => {
+      window.open('https://www.linkedin.com/in/mohd-azam-4956a828a/', '_blank')
+      return 'Opening Linkedin profile...'
+    }
+  },
+
+      leetcode: {
+    description: 'Open my leetcode profile',
+    usage: 'leetcode',
+    fn: () => {
+      window.open('https://leetcode.com/u/Mohd_Azam0823/', '_blank')
+      return 'Opening leetcode profile...'
     }
   },
 
@@ -93,12 +111,14 @@ LinkedIn: linkedin.com/in/yourusername`
     fn: () => 'Resume will be available soon 🙂'
   },
 
+
+  
   social: {
     description: 'Social links',
     usage: 'social',
     fn: () =>
-      `GitHub   → github.com/yourusername
-LinkedIn → linkedin.com/in/yourusername`
+      `GitHub   → https://github.com/shaikhazam990
+LinkedIn → https://www.linkedin.com/in/mohd-azam-4956a828a/`
   },
 
   echo: {
